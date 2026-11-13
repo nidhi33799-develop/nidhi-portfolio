@@ -33,6 +33,8 @@
     border-radius:2px;
 }
 
+
+
 .professional-info {
     display: flex;
     gap: 16px;
@@ -107,6 +109,11 @@
     .contact-intro {
         width: 100%;
         text-align: center;
+    }
+
+    .contact-intro h2::after {
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .professional-info {

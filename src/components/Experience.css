@@ -1,10 +1,12 @@
-.experience-section{
+.experience-section {
     background-color: #F4F0FA;
-    flex:1;
-    min-width:0;
-    display:flex;
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    display: flex;
     flex-direction: column;
     padding: clamp(24px, 5vw, 60px);
+    box-sizing: border-box;
 }
 .experience-intro h2{
     font-size:2rem;
@@ -29,12 +31,14 @@
 .experience-timeline {
     position: relative;
     padding-left: 30px;
+    min-width: 0;
 }
 
 .company-experience {
     position: relative;
     padding: 0 0 30px 25px;
     border-left: 2px solid #1976d2;
+    min-width: 0;
 }
 
 .timeline-marker {
@@ -65,9 +69,64 @@
     margin: 0 0 8px;
 }
 
+.company-details {
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
 .job-role ul {
     font-size: 1rem;
     line-height: 1.6;
     margin: 0;
     padding-left: 22px;
+    overflow-wrap: break-word;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    .experience-section {
+        padding: 30px 20px;
+    }
+
+    .experience-intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .experience-timeline {
+        padding-left: 15px;
+    }
+
+    .company-experience {
+        padding-left: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .experience-section {
+        padding: 24px 18px;
+    }
+
+    .experience-intro h2 {
+        font-size: 1.6rem;
+    }
+
+    .company-experience {
+        padding: 0 0 25px 18px;
+    }
+
+    .company-details h3 {
+        font-size: 1.1rem;
+    }
+
+    .job-role h4 {
+        font-size: 1rem;
+    }
+
+    .job-role ul {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding-left: 18px;
+    }
 }
