@@ -1,0 +1,88 @@
+.contact-section{
+    background-color: #FDF2F8;
+    display:flex;
+    flex-direction: row;
+    padding:clamp(24px,5vw, 60px);
+    gap:20px;
+    flex:1;
+    min-width:0;
+}
+
+.contact-intro h2{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom: 20px;
+    color: #1a2b45;
+    position:relative;
+
+}
+
+.contact-intro h2::after{
+    content:"";
+    position:absolute;
+    bottom:-8px;
+    left:0;
+
+     width:65px;
+    height:4px;
+
+    background-color:#1976d2;
+  
+    border-radius:2px;
+}
+
+.professional-info{
+    display: flex;
+    gap: 16px;
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+}
+
+.contact-card{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1 1 200px;
+    min-height: 64px;
+    padding: 16px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+
+.contact-card h4{
+    font-size:1.2rem;
+    margin-bottom:10px;
+
+}
+.contact-card p{
+    font-size:1rem;
+}
+
+.contact-icon {
+    font-size: clamp(20px,3vw,40px);
+}
+
+.email-icon,
+.linkedin-icon {
+    color: #1976d2;
+}
+
+.github-icon {
+    color: #171515;
+}
+

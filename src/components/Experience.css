@@ -1,0 +1,73 @@
+.experience-section{
+    background-color: #F4F0FA;
+    flex:1;
+    min-width:0;
+    display:flex;
+    flex-direction: column;
+    padding: clamp(24px, 5vw, 60px);
+}
+.experience-intro h2{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:20px;
+    color: #1a2b45;
+    position:relative;
+
+}
+.experience-intro h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 65px;
+    height: 4px;
+    background-color: #1976d2;
+    border-radius: 2px;
+}
+
+
+.experience-timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.company-experience {
+    position: relative;
+    padding: 0 0 30px 25px;
+    border-left: 2px solid #1976d2;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -7px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #1976d2;
+    border-radius: 50%;
+}
+
+.company-details h3 {
+    margin: 0 0 5px;
+    color: #1a2b45;
+}
+
+.company-details > p {
+    margin: 0 0 18px;
+    color: #666;
+}
+
+.job-role {
+    margin-bottom: 22px;
+}
+
+.job-role h4 {
+    margin: 0 0 8px;
+}
+
+.job-role ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 22px;
+}
