@@ -21,12 +21,10 @@
 ========================================= */
 
 .hero-intro {
-    flex: 0 1 1;
+    flex: 1 1 0;
     min-width: 0;
     max-width: 800px;
     padding: 20px;
-   
-    
 }
 
 .hero-greeting {
@@ -113,6 +111,7 @@
 
 .hero-content {
     width: clamp(280px, 35vw, 480px);
+    flex-shrink: 0;
     min-height: 280px;
     padding: 35px;
     background-color:#ffffff;
