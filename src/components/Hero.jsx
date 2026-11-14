@@ -33,7 +33,7 @@ function Hero(){
                     LinkedIn
                 </a>
 
-                <a href="https://github.com/your-username">
+                <a href="https://github.com/nidhi33799-develop">
                     GitHub
                 </a>
             </div>

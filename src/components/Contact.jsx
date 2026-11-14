@@ -16,8 +16,8 @@ function Contact(){
                      <FaEnvelope className="contact-icon email-icon" />
                      <div className="contact-details">
                         <h4>Email</h4>
-                        <a href="mailto:yourname@gmail.com">
-                            yourname@gmail.com
+                        <a href="mailto:neha.gautam869@gmail.com">
+                            neha.gautam869@gmail.com
                         </a>
                      </div>
                 </div>
@@ -26,11 +26,11 @@ function Contact(){
                     <div className="contact-details">
                         <h4>LinkedIn</h4>
                         <a 
-                            href="https://www.linkedin.com/in/yourprofile"
+                            href="https://www.linkedin.com/in/nidhi-gautam/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            linkedin.com/in/yourprofile
+                            https://www.linkedin.com/in/nidhi-gautam/
                         </a>
                     </div>
                 </div>
@@ -39,11 +39,11 @@ function Contact(){
                     <div className="contact-details">
                         <h4>GitHub</h4>
                         <a 
-                            href="https://github.com/yourusername"
+                            href="https://github.com/nidhi33799-develop"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            github.com/yourusername
+                            https://github.com/nidhi33799-develop
                         </a>
                     </div>
                 </div>
